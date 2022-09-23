@@ -101,8 +101,16 @@
   }
 }
 
+@media (max-width: 800px) {
+  .experiencia h2 {
+    word-break: normal;
+  }
+}
+
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .experiencia h2 {
   }
 }
