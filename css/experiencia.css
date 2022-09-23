@@ -9,6 +9,7 @@
 
 .experiencia .subtitulo {
   color: #e0e0e0;
+  max-width: 4ch;
 }
 
 .experiencia-texto {
@@ -110,7 +111,5 @@
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
-  }
-  .experiencia h2 {
   }
 }
